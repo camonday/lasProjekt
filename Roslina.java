@@ -16,8 +16,9 @@ public class Roslina extends Jadalne{
     }
     
     @Override
-    public void JestZjadane() {
+    public void JestZjadane(Istota killer) {
         Umiera();   
+        //daje energie - to be done np killer.AddEnergia(energiaAdd) ale to trzeba w istocie dodac metode AddEnergia
     }
     
 }
